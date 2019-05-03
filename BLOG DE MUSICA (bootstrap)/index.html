@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="mobile-web-app-captable" content="yes">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css2/estilo.css">
@@ -10,27 +10,59 @@
     <title>Blog de musica</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-dark bg-dark ">
-        <img class="logo-img" class="img-fluid" src="imagenes/logo.jpg" alt="responsive image">
+    <header class="container">
+      <nav class="navbar navbar-dark bg-dark">
+        <img class="logo-img" class="img-fluid"  class="img-rounded" src="imagenes/logo.jpg" alt="responsive image">
         <h1>Hablemos de Musica</h1>
         <nav class="redes-sociales">
-          <img class"logos" src="imagenes/fb.png">
-          <img class"logos" src="imagenes/ig.png">
-          <img class"logos" src="imagenes/tt.png">
+          <img class"logos" class="img-rounded" src="imagenes/fb.png">
+          <img class"logos" class="img-rounded" src="imagenes/ig.png">
+          <img class"logos" class="img-rounded" src="imagenes/tt.png">
         </nav>
       </nav>
     </header>
-    <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2 d-none d-md-inline-block" href="#">Inicio</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Artistas</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Top 10</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Noticias</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Efemerides</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Listas</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Acordes</a>
+    <nav>
+      <div class="container d-flex flex-column flex-md-row flex-sm-column justify-content-between">
+        <a class="py-2 d-column d-md-inline-block" href="#">Inicio</a>
+        <a class="py-2 d-column d-md-inline-block" href="#">Artistas</a>
+        <a class="py-2 d-column d-md-inline-block" href="#">Top 10</a>
+        <a class="py-2 d-column d-md-inline-block" href="#">Noticias</a>
+        <a class="py-2 d-column d-md-inline-block" href="#">Listas</a>
+        <a class="py-2 d-column d-md-inline-block" href="#">Acordes</a>
       </div>
     </nav>
+    <hr class="featurette-divider">
+
+     <div class="container" class="row featurette">
+       <div class="col-md-8">
+         <h2 class="featurette-heading">Banda de la semana. <span class="text-muted">Journey.</span></h2>
+         <p class="lead">Journey es una banda de rock creada en 1973 en San Francisco, Estados Unidos, por el teclista Gregg Rolie y el guitarrista Neal Schon, integrantes originales de Santana. De estilo rock progresivo en sus inicios, fue cambiando a un estilo más melódico con la incorporación del vocalista Steve Perry en 1978, quien con su voz convirtió a la banda en una de las más destacadas de los años 1980, con ventas de más de 80 millones de discos en todo el mundo convirtiéndolos en uno de los artistas más exitosos de todos los tiempos.
+         Journey alcanzó la cima del éxito en 1981 con el álbum Escape, que contenía canciones como "Open Arms", "Who's Crying Now" y "Don't Stop Believin'". Durante ese período, la banda lanzó una serie de canciones de éxito, incluyendo "Don't Stop Believin'" de 1981, el más vendido en la historia de iTunes</p>
+         <div class="comentario">
+           <img class="logos" id="imgq"class="img-rounded"src="imagenes/usr.png">
+           <textarea name="comentario" rows="2" cols="20">Comenta...</textarea>
+         </div>
+       </div>
+       <div class="col-md-2">
+        <img src="imagenes/journey.jpg" class="img-responsive">
+       </div>
+     </div>
+
+     <hr class="featurette-divider">
+
+     <div class="container" class="row featurette">
+       <div class="col-md-8 order-md-2">
+         <h2 class="featurette-heading">Artista de la semana. <span class="text-muted">Steve Perry</span></h2>
+         <p class="lead">Steve Perry (nacido como Stephen Ray Perry,1​ el 22 de enero de 1949, en Hanford, California) es un cantante y compositor estadounidense que se dio a conocer como vocalista de la banda de rock Journey durante 1978–1987 y 1995–1998.
+         Perry tuvo una carrera en solitario muy positiva, aunque fue de breve duración, desde finales de los ochenta hasta mediados de los noventa. En 1984 lanzó el álbum Street Talk que alcanzó el puesto 12 en el Billboard y obtuvo dos discos de platino. En 1994 lanzó al mercado su segunda producción en solitario, For the Love of Strange Medicine, logrando el puesto 15 en el Billboard. La revista Rolling Stone nombró a Perry el 76° mejor cantante de su lista de "Los 100 cantantes más grandes de todos los tiempos".2​ El 5 de octubre de 2018 lanza su álbum Traces</p>
+         <div class="comentario">
+           <img class="logos" id="imgq"class="img-rounded"src="imagenes/usr.png">
+           <textarea name="comentario" rows="2" cols="20">Comenta...</textarea>
+         </div>
+       </div>
+       <div class="col-md-2 order-md-1">
+         <img src="imagenes/perry.jpg" class="img-responsive">
+       </div>
+     </div>
   </body>
 </html>

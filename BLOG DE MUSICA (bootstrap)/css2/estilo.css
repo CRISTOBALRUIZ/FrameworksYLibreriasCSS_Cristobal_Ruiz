@@ -13,6 +13,7 @@ body {
 
 .logo-img {
   width: 100px;
+  border-radius: 8px;
 }
 .redes-sociales {
   margin-top: 30px;
@@ -21,7 +22,17 @@ body {
 .logos {
   width: 40px;
   height: 40px;
+  border-radius: 50px;
 }
 h1 {
   color: white;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
+#imgq{
+  vertical-align: 0px !important;
 }
