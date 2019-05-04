@@ -22,17 +22,40 @@ body {
 .logos {
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
-h1 {
+h1, h2, h3, p {
   color: white;
+  position: relative;
 }
-h2 {
+#capsula {
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: grey;
+  position: static;
+  opacity: 0.6;
+  }
+#foto {
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: grey;
+  position: static;
+  opacity: 0.6;
+}
+#imgq {
+  vertical-align: 0px! !important;
+}
+#search {
   color: white;
+  background-color: navy;
+  opacity: 0.7;
+  border-radius: 5px;
+  border-top: 0 auto;
+  position: static;
 }
-p {
-  color: white;
+textarea {
+  border-radius: 5px;
 }
-#imgq{
-  vertical-align: 0px !important;
+img,png{
+  border-radius: 5px;
 }
