@@ -20,15 +20,15 @@ body {
 }
 
 .logos {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 20px;
 }
-h1, h2, h3, p {
+h1, h2, h3, p, Ol {
   color: white;
   position: relative;
 }
-#capsula {
+#capsula, #buscador{
   border-radius: 8px;
   border: 1px solid white;
   background-color: grey;
@@ -41,21 +41,17 @@ h1, h2, h3, p {
   background-color: grey;
   position: static;
   opacity: 0.6;
+  text-align: center;
 }
 #imgq {
   vertical-align: 0px! !important;
-}
-#search {
-  color: white;
-  background-color: navy;
-  opacity: 0.7;
-  border-radius: 5px;
-  border-top: 0 auto;
-  position: static;
 }
 textarea {
   border-radius: 5px;
 }
 img,png{
   border-radius: 5px;
+}
+#search {
+  width: 60%;
 }

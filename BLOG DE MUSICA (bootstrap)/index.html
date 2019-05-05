@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="mobile-web-app-captable" content="yes">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css2/estilo.css">
     <script src="js/bootstrap.min.js"></script>
     <title>Blog de musica</title>
@@ -15,9 +16,9 @@
         <img class="logo-img" class="img-fluid"  class="img-rounded" src="imagenes/logo.jpg" alt="responsive image">
         <h1>Hablemos de Musica</h1>
         <nav class="redes-sociales">
-          <img class"logos" class="img-rounded" src="imagenes/fb.png">
-          <img class"logos" class="img-rounded" src="imagenes/ig.png">
-          <img class"logos" class="img-rounded" src="imagenes/tt.png">
+          <a href="#"><img class"logos" class="img-rounded" src="imagenes/fb.png"></a>
+            <a href="#"><img class"logos" class="img-rounded" src="imagenes/ig.png" a href="#"></a>
+          <a href="#"><img class"logos" class="img-rounded" src="imagenes/tt.png" a href="#"></a>
         </nav>
       </nav>
     </header>
@@ -33,19 +34,46 @@
     </nav>
      <div class="container">
        <div class="row">
+         <div class=row class=col-lg-10>
          <div id="capsula" class="col-lg-7">
            <h2>Banda de la semana</h2>
            <h3>Journey</h3>
            <p>Journey es una banda de rock creada en 1973 en San Francisco, Estados Unidos, por el teclista Gregg Rolie y el guitarrista Neal Schon, integrantes originales de Santana. De estilo rock progresivo en sus inicios, fue cambiando a un estilo más melódico con la incorporación del vocalista Steve Perry en 1978, quien con su voz convirtió a la banda en una de las más destacadas de los años 1980, con ventas de más de 80 millones de discos en todo el mundo convirtiéndolos en uno de los artistas más exitosos de todos los tiempos.
              Journey alcanzó la cima del éxito en 1981 con el álbum Escape, que contenía canciones como "Open Arms", "Who's Crying Now" y "Don't Stop Believin'". Durante ese período, la banda lanzó una serie de canciones de éxito, incluyendo "Don't Stop Believin'" de 1981, el más vendido en la historia de iTunes
            </p>
-           <img class="img-rounded" id="imgq" src="imagenes/usr.png">
-           <textarea name="comentario" rows="1" cols="25">Comenta...</textarea>
-         </div>
+           <img src="imagenes/usr.png" style="border-radius:60px">
+           <textarea name="" rows="1" cols="25">Comenta...</textarea>
+       </div>
          <div id="foto" class="col-lg-3" style="background-color:white">
            <img src="imagenes/journey.jpg" class="img-responsive">
          </div>
-         <div id="search" class="col-lg-2">
+
+         <div id="buscador" class="col-lg-2" class="row">
+           <br>
+           <div class="container">
+             <br>
+             <div class="row">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="buscar...">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="fab fa-sistrix"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+           </div>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">Rock 80´s</li>
+            <li class="list-group-item">Solistas 80´s</li>
+            <li class="list-group-item">Rock 90´s</li>
+            <li class="list-group-item">Solistas 90´s</li>
+            <li class="list-group-item">grammy 2019</li>
+            <li class="list-group-item">Lista Spotify</li>
+            <li class="list-group-item">Festivales</li>
+          </ul>
          </div>
          <div id="foto" class="col-lg-3" style="background-color:white">
            <img src="imagenes/perry.jpg" class="img-responsive">
@@ -55,10 +83,13 @@
            <h3>Steve Perry</h3>
            <p>Steve Perry (nacido como Stephen Ray Perry,1​ el 22 de enero de 1949, en Hanford, California) es un cantante y compositor estadounidense que se dio a conocer como vocalista de la banda de rock Journey durante 1978–1987 y 1995–1998.
          Perry tuvo una carrera en solitario muy positiva, aunque fue de breve duración, desde finales de los ochenta hasta mediados de los noventa. En 1984 lanzó el álbum Street Talk que alcanzó el puesto 12 en el Billboard y obtuvo dos discos de platino. En 1994 lanzó al mercado su segunda producción en solitario, For the Love of Strange Medicine, logrando el puesto 15 en el Billboard. La revista Rolling Stone nombró a Perry el 76° mejor cantante de su lista de "Los 100 cantantes más grandes de todos los tiempos".2​ El 5 de octubre de 2018 lanza su álbum Traces</p>
-         <img class="img-rounded" id="imgq" src="imagenes/usr.png">
+          <img src="imagenes/usr.png" style="border-radius:60px">
          <textarea name="comentario" rows="1" cols="25">Comenta...</textarea>
          </div>
        </div>
+      </div>
      </div>
+     <script src="https://code.jquery.com/jquery-latest.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </body>
 </html>
