@@ -31,17 +31,16 @@ h1, h2, h3, p, Ol {
 #capsula, #buscador{
   border-radius: 8px;
   border: 1px solid white;
-  background-color: grey;
+  background-color: rgba(80,80,80,0.6);
   position: static;
-  opacity: 0.6;
   }
-#foto {
+#foto, #lista {
   border-radius: 5px;
   border: 1px solid white;
-  background-color: grey;
+  background-color: rgba(255,255,255,0.6);
   position: static;
-  opacity: 0.6;
   text-align: center;
+  opacity: 0.6;
 }
 #imgq {
   vertical-align: 0px! !important;
