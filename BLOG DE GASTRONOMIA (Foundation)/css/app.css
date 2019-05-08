@@ -1,5 +1,5 @@
 body {
-  background: url(../imagenes/cocina3.jpg) center center no-repeat fixed;
+  background: url(../imagenes/cocina7.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -7,4 +7,8 @@ body {
 }
 .fi-magnifying-glass {
   &#xf16c;
-}
+ }
+ img {
+   width: 100%;
+   height: 100%;
+ }
