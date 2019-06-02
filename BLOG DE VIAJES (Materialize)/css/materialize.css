@@ -6,9 +6,11 @@
 .materialize-red {
   background-color: #e51c23 !important;
 }
-#foto{
-  width: 100%;
+#vertical{
   height: 100%;
+}
+.circle important{
+  center-align;
 }
 body {
   background-image: url(../imagenes/fondo12.jpg);
@@ -35,19 +37,19 @@ color: #fff;
   Transition: 1s;
 }
 .left-sidebar li:nth-child(1){
-background: #3b5999;
+background: #3b5998;
 }
 .left-sidebar li:nth-child(2){
-background: #55acee;
+background: #00aced;
 }
 .left-sidebar li:nth-child(3){
-background: #dd4b39;
+background: #db4437;
 }
 .left-sidebar li:nth-child(4){
-background: #bd081c;
+background: #ff0000;
 }
 .left-sidebar li:nth-child(5){
-background: #e4405f;
+background: #c32AA3;
 }
 .left-sidebar li:hover{
 width: 150px;
