@@ -7,6 +7,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <title>BLOG DE VIAJES</title>
   </head>
   <body>
@@ -34,51 +35,66 @@
     </nav>
   <div class="col m4 s9 offset-s3">
     <br>
-        <img src="imagenes/fondo3.jpg" class="responsive-img">
-        <img src="imagenes/fondo6.jpg" class="responsive-img">
+        <img src="imagenes/fondo3.jpg" class="responsive-img" alt="Cuevas del milodon, parque nacional torres del paine">
+        <img src="imagenes/fondo6.jpg" class="responsive-img" alt="Hosteria Pehoé, parque nacional torres del paine">
     </div>
   <div class="col m4 s9 offset-s3">
     <br>
-          <img id="vertical" src="imagenes/fondo9.jpg" class="responsive-img">
+          <img src="imagenes/fondo9.jpg" class="responsive-img" alt="Cuernos de las torres del paine, parque nacional torres del paine. ">
   </div>
   <div class="col m4 s9 offset-s3">
     <br>
-          <img src="imagenes/fondo4.jpg" class="responsive-img">
-          <img src="imagenes/fondo8.jpg" class="responsive-img">
+          <img src="imagenes/fondo4.jpg" class="responsive-img" alt="La silla del diablo, parque nacional torres del paine">
+          <img src="imagenes/fondo8.jpg" class="responsive-img" alt="Fuerte Bulnes, Punta Arenas, Región de Magallanes y la Antartica Chilena ">
   </div>
 </div>
 <div class="row">
-  <div class="col m8 s9 offset-s3">
-    <div class="card-panel hoverable black white-text">
-      <span class="card-title">Hotel Dreams</span>
-      <div class="card-image medium">
-        <img src="imagenes/fondo5.jpg" class="responsive-img">
-        <p>Situado en la region de Los Lagos, pertenecce a uno de los lugares, sin duda alguna mas hermosos del mundo.</p>
-        <p>Con una vista privilegiada al lago Llanquihue e inmerso entre bosques y volcanes, en Puerto Varas podrás disfrutar de una experiencia inolvidable en uno de los lugares más tradicionales de Chile.</p>
-      </div>
-      <div class="card-content">
-
-        <div class="textarea" >
-          <textarea name="Comentario" rows="3" cols="40" placeholder="Dejanos tu comentario..."></textarea>
-          <button class="btn-waves-effect waves-light" type="submit" name="registro">Registra tu comentario</button>
-          <button class="btn-waves-effect waves-light" type="submit" name="cancel">Cancelar</button>
+    <div class="col s9 m7 offset-s3">
+      <div class="card black white-text">
+        <div class="card-image">
+          <img class="materialboxed" width="350" src="imagenes/fondo13.jpg" class="responsive-img">
+          <span class="card-title">Glaciar Gray</span>
+        </div>
+        <div class="card-content">
+          <p class="text-flow">El glaciar Grey es un glaciar localizado en Chile, en la parte occidental del Parque nacional Torres del Paine, que forma parte de los Campos de Hielo Sur. Es una masa de hielo de 6 kilómetros de ancho y más de 30 metros de altura dividido en dos frentes. En 1996 tenía una superficie total de 270 km² y una longitud de 28 kilómetros.</p>
+          <div class="row">
+              <form class="col m9 s3">
+                <div class="row">
+                  <div class="input-field col m9 s12 white-text">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix2">Dejanos tu comentario</label>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="btn waves-effect waves-light type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
         </div>
       </div>
     </div>
+<div class="col s9 m5 offset-s3">
+  <div class="card-panel black white-text">
+    <div class="card-image">
+      <img src="imagenes/autor.png" class="circle responsive-img center-align">
+      <span>Cristóbal Ruíz</span>
+      <hr class="divider"></hr>
+      <p>En los últimos 10 años ha tenido el privilegio de viajar por todo el pais, recogiendo de cada localidad un poco de la escencia que hacce aun mas hermoso este rincon del planeta.</p>
+    </div>
   </div>
-  <div class="col m4 s9 offset-s3">
-     <div class="card-panel hoverable black white-text">
-       <div class="card-image">
-         <img src="imagenes/autor.png" class="circle responsive-img">
-       </div>
-        <h6>Cristobal Ruiz</h6>
-       <hr class="divider">
-       <p>Como consuecuencia de su trabajo como constructor, ha tenido el privilegio de viajar por todo Chlie, recogiendo en cada lugar en donde va, un pequeño ápice de la escencia que tiene este hermoso pais.</p>
-     </div>
-   </div>
+</div>
   </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+      });
+    </script>
   </body>
 </html>

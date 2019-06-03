@@ -6,12 +6,6 @@
 .materialize-red {
   background-color: #e51c23 !important;
 }
-#vertical{
-  height: 100%;
-}
-.circle important{
-  center-align;
-}
 body {
   background-image: url(../imagenes/fondo12.jpg);
   background-position: center center;
